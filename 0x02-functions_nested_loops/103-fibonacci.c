@@ -5,6 +5,7 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i;
@@ -18,7 +19,7 @@ int main(void)
 	{
 		if (j < 4000000 && (j % 2) == 0)
 		{
-			sum = sum + j
+			sum = sum + j;
 		}
 		next = j + k;
 		j = k;
