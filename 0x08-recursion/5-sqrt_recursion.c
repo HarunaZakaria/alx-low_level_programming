@@ -12,6 +12,8 @@ int _sqrt_recursion(int n)
 	int sqrt_fun(int n, int sq);
 
 	int sq = 1;
+
+	return (sqrt_fun(n, sq));
 }
 
 /**
