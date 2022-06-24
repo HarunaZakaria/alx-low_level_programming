@@ -46,9 +46,9 @@ int main(int argc, char *argv[])
 			continue;
 		}
 		cents--;
-		}
+	}
 
-	printf("%d\n", coins)
+	printf("%d\n", coins);
 
-		return (0);
+	return (0);
 }
