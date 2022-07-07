@@ -1,0 +1,1 @@
+solution of function pointers
