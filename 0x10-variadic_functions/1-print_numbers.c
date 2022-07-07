@@ -9,14 +9,11 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	/* creating va_list to store the variable argument list */
+	/*creating va_list to store the variable argument list*/
 	va_list my_nums;
 	unsigned int count;
 
-	/* init valist for the number of arguments */
-	va_start(my_nums, n);
-	
-	/* loop through/access all arguments stored in the valist */
+	/*init valist for the number of arguments */
 	for (count = 0; count < n; count++)
 	{
 		printf("%d", va_arg(my_nums, unsigned int));
