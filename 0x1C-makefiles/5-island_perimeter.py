@@ -2,6 +2,7 @@
 """Island Perimeter"""
 
 
+
 def island_perimeter(grid):
     """returns the perimeter of the island"""
     patches = 0
@@ -15,6 +16,6 @@ def island_perimeter(grid):
                         borders += 1
                 if col != len(grid[row]) - 1:
                     if grid[row][col + 1] == 1:
-                        borders += 
+                        borders += 1
     perimeter = (patches * 4) - (borders * 2)
     return perimeter
